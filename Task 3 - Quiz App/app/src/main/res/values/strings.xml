@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="todo">TODO</string>
+    <string name="welcome">Welcome</string>
+    <string name="to">to</string>
+    <string name="quiz_app">Quiz App</string>
+    <string name="next">next -></string>
+    <string name="a">(A)</string>
+    <string name="b">(B)</string>
+    <string name="c">(C)</string>
+    <string name="d">(D)</string>
+    <string name="_1">1.</string>
+    <string name="setting">Setting</string>
+    <string name="change_language">Change Language</string>
+    <string name="try_again">Try Again</string>
+    <string name="total_question">Total Question</string>
+</resources>
