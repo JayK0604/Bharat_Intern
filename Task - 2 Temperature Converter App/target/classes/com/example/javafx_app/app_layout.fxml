@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--ALT + CTRL + L -> Helps to split the lines in two parts-->
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="255.0" prefWidth="286.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafx_app.Controller">
+    <children>
+        <Pane prefHeight="200.0" prefWidth="200.0">
+            <children>
+                <Label fx:id="welcomeLabel" alignment="CENTER" layoutX="-6.0" layoutY="31.0" prefHeight="27.0" prefWidth="300.0" text="Welcome">
+                    <font>
+                        <Font name="System Bold" size="18.0" />
+                    </font>
+                </Label>
+                <ChoiceBox fx:id="choiceBox" layoutX="59.0" layoutY="75.0" prefHeight="25.0" prefWidth="164.0" />
+                <TextField fx:id="userInputField" layoutX="62.0" layoutY="119.0" prefHeight="25.0" prefWidth="164.0" promptText="Enter Temperature" />
+                <Button fx:id="convertButton" layoutX="82.0" layoutY="161.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="119.0" text="Convert" />
+            </children>
+        </Pane>
+    </children>
+</VBox>
